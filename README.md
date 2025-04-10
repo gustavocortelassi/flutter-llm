@@ -103,20 +103,9 @@ O arquivo gerado estará em `build/app/outputs/flutter-apk/app-release.apk`.
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por **Gustavo**, estudante de Engenharia de Software no Biopark Educação.  
-📍 Oeste do Paraná  
-🔗 [linkedin.com/in/gustavosoftdev](https://linkedin.com/in/gustavosoftdev)
-
----
-
 ## 📜 Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
-## 🙌 Contribuições
-
-Contribuições são bem-vindas! Sinta-se livre para abrir uma issue ou enviar um pull request.
