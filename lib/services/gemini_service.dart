@@ -9,11 +9,16 @@ class GeminiService {
         model: 'gemini-1.5-flash-latest',
         apiKey: dotenv.env['GEMINI_API_KEY']!,
         generationConfig: GenerationConfig(
-          temperature: 0.7,
-          topK: 40,
-          topP: 0.9,
-          maxOutputTokens: 500,
-          stopSequences: ['###'],
+          temperature:
+              0.7, // Define a temperatura para controle da aleatoriedade
+          topK:
+              40, // Define o número de palavras mais prováveis a serem consideradas
+          topP:
+              0.9, // Define a probabilidade cumulativa para seleção de palavras
+          maxOutputTokens: 500, // Define o número máximo de tokens na resposta
+          stopSequences: [
+            '###',
+          ], // Define sequências de parada para interromper a geração
         ),
       );
 
